@@ -15,6 +15,11 @@ import motMain from '../../images/mot-main.png'
 import quote from '../../images/quote.png'
 
 function Portfolio() {
+
+  const handleScroll = () => {
+    window.scrollTo(0, 0)
+  }
+
   return (
     <div className="portfolio-container">
       <Nav />
@@ -110,6 +115,7 @@ function Portfolio() {
           </div>
           <div className="p-small"></div>
         </div>
+        <a onClick={handleScroll}>Back To Top</a>
       </div>
     </div>
   )
