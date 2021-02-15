@@ -1,20 +1,37 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 function Nav() {
+
+  const scrollToBio = () => {
+    window.scrollTo({
+      top: 700,
+      left: 0,
+      behavior: 'smooth'
+    })
+  }
+
+  const scrollToPortfolio = () => {
+    window.scrollTo({
+      top: 1400,
+      left: 0,
+      behavior: 'smooth'
+    })
+  }
+
+  const scrollToContact = () => {
+    window.scrollTo({
+      top: 4200,
+      left: 0,
+      behavior: 'smooth'
+    })
+  }
 
   return (
     <div className="nav-bar-container">
       <div className="nav-bar-main">
-        <Link to="bio-skills" style={{ textDecoration: 'none', color: 'black' }}>
-          <div className="nav-bar-item">BIO/ SKILLS</div>
-        </Link>
-        <Link to="/portfolio" style={{ textDecoration: 'none', color: 'black' }}>
-          <div className="nav-bar-item">PORTFOLIO</div>
-        </Link>
-        <Link to="/contact" style={{ textDecoration: 'none', color: 'black' }}>
-          <div className="last-nav-bar-item">CONTACT</div>
-        </Link>
+        <a onClick={scrollToBio} className="nav-bar-item">BIO/ SKILLS</a>
+        <a onClick={scrollToPortfolio} className="nav-bar-item">PORTFOLIO</a>
+        <a onClick={scrollToContact} className="last-nav-bar-item">CONTACT</a>
       </div>
     </div>
   )

@@ -1,7 +1,6 @@
 import React from 'react'
 import HeroCarousel from 'react-hero-carousel'
 
-import Nav from '../common/Nav'
 import portraits from '../../images/portraits.png'
 import tablet from '../../images/tablet-size.png'
 import newWork from '../../images/ahome-n-w.png'
@@ -16,14 +15,13 @@ import quote from '../../images/quote.png'
 
 function Portfolio() {
 
-  const handleScroll = () => {
-    window.scrollTo(0, 0)
-  }
 
   return (
     <div className="portfolio-container">
-      <Nav />
       <div className="portfolio-main">
+        <div className="section-title-container">
+          <div className="section-title">PORTFOLIO</div>
+        </div>
         <div className="portfolio-section-one">
           <div className="p-small"></div>
           <div className="p-large">
@@ -38,7 +36,7 @@ function Portfolio() {
                 </div>
               </div>
               <div className="p-info">
-                <div className="p-info-container-one">
+                <div className="p-info-container p-info-white">
                   <h1>Project 4 – Art Website</h1>
                   <h4>Full stack – Python Django rest framework using a Postgres database with React frontend, one week, solo project</h4>
                   <p>In this project, I decided to build my mum a website for her art. This was a hugely beneficial experience, as I practised working under someone elses scope of what they expected, as well as communicating with them throughout the process and ultimately delivering something that was of a high standard. Using Python to code the backend was a great learning experience as being able to go from JavaScript to a new language highlighted the importance of basic coding principles and how these apply to all languages. Similarly, being able to really spend time polishing the look of the frontend has given me confidence in my design and I am looking forward to the next challenge. Delivering a product that my mum could use and update regularly through the admin site was a great way to finish this experience and it was so rewarding revealing it to her as she loved it.</p>
@@ -83,7 +81,7 @@ function Portfolio() {
                 </div>
               </div>
               <div className="p-info">
-                <div className="p-info-container-one">
+                <div className="p-info-container p-info-white">
                   <h1>Project 2 – Motivational Maddening</h1>
                   <h4>Serving an API with react frontend, two days, pair coding</h4>
                   <p>In this project, I experienced the importance of clear communication and teamwork when under severe time pressure. Having just two days, we were tasked with accessing an API and displaying it with a React frontend. Being near the beginning of my development in react on top of the other factors this was by far the most challenging project for me personally. Using a motivation quote API, we built a quiz-based application that also served to give the user motivation. Using react-router-dom for a many-page application, as well as using JSX for the first time, on top of handling the logic surrounding the game, all were good learning experiences. Similarly, using a CSS library for the first time (Bulma) was useful.</p>
@@ -92,7 +90,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="portfolio-section">
+        <div className="portfolio-section p-bottom">
           <div className="p-large">
             <div className="project-container">
               <div className="p-info">
@@ -115,7 +113,9 @@ function Portfolio() {
           </div>
           <div className="p-small"></div>
         </div>
-        <a onClick={handleScroll}>Back To Top</a>
+        <div className="section-title-container-contact">
+          <div className="section-title">CONTACT</div>
+        </div>
       </div>
     </div>
   )

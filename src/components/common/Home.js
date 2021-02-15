@@ -1,6 +1,9 @@
 import React from 'react'
 
 import Nav from './Nav'
+import Portfolio from '../info/Portfolio'
+import BioSkills from '../info/BioSkills'
+import Contact from '../info/Contact'
 
 function Home() {
   return (
@@ -18,6 +21,9 @@ function Home() {
           </div>
         </div>
       </div>
+      <BioSkills />
+      <Portfolio />
+      <Contact />
     </div>
   )
 }
