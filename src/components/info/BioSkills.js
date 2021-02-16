@@ -5,6 +5,8 @@ import { SiJavascript, SiDjango, SiMongodb, SiPostgresql, SiBulma, SiNetlify, Si
 
 
 function BioSkills() {
+
+
   return (
     <div className="bio-skills-container">
       <div className="section-title-container">
@@ -12,19 +14,58 @@ function BioSkills() {
       </div>
       <div className="icon-container">
         <div className="icons">
-          <FaReact />
-          <SiJavascript />
-          <FaHtml5 />
-          <SiDjango />
-          <SiMongodb />
-          <FaArrowLeft />
-          <div>Confident</div>
-          <FaArrowRight />
-          <FaCss3 />
-          <SiBulma />
-          <FaSlack />
-          <FaVideo />
-          <FaSass />
+          <div className="icons-div">
+            <FaReact />
+            <div className="icon-text">React</div>
+          </div>
+          <div className="icons-div">
+            <SiJavascript />
+            <div className="icon-text">JavaScript</div>
+          </div>
+          <div className="icons-div">
+            <FaHtml5 />
+            <div className="icon-text">HTML5</div>
+          </div>
+          <div className="icons-div">
+            <SiDjango />
+            <div className="icon-text">Django</div>
+          </div>
+          <div className="icons-div">
+            <SiMongodb />
+            <div className="icon-text">MongoDb</div>
+          </div>
+          <div className="icons-div">
+            <FaArrowLeft />
+            <div className="icon-text-none">ArrowLeft</div>
+          </div>
+          <div className="icons-div">
+            <div>Confident</div>
+            <div className="icon-text-none">Confident</div>
+          </div>
+          <div className="icons-div">
+            <FaArrowRight />
+            <div className="icon-text-none">ArrowRight</div>
+          </div>
+          <div className="icons-div">
+            <FaCss3 />
+            <div className="icon-text">CSS3</div>
+          </div>
+          <div className="icons-div">
+            <SiBulma />
+            <div className="icon-text">Bulma</div>
+          </div>
+          <div className="icons-div">
+            <FaSlack />
+            <div className="icon-text">Slack</div>
+          </div>
+          <div className="icons-div">
+            <FaVideo />
+            <div className="icon-text">Zoom</div>
+          </div>
+          <div className="icons-div">
+            <FaSass />
+            <div className="icon-text">Sass</div>
+          </div>
         </div>
       </div>
       <div className="bio-main">
@@ -36,20 +77,62 @@ function BioSkills() {
       </div>
       <div className="icon-container">
         <div className="icons">
-          <FaNodeJs />
-          <FaPython />
-          <FaGithub />
-          <FaYarn />
-          <FaNpm />
-          <FaArrowLeft />
-          <div>Comfortable</div>
-          <div>New Too</div>
-          <FaArrowRight />
-          <SiPostgresql />
-          <SiNetlify />
-          <SiHeroku />
-          <FaDocker />
-          <SiJquery />
+          <div className="icons-div">
+            <FaNodeJs />
+            <div className="icon-text">NodeJs</div>
+          </div>
+          <div className="icons-div">
+            <FaPython />
+            <div className="icon-text">Python</div>
+          </div>
+          <div className="icons-div">
+            <FaGithub />
+            <div className="icon-text">Github</div>
+          </div>
+          <div className="icons-div">
+            <FaYarn />
+            <div className="icon-text">Yarn</div>
+          </div>
+          <div className="icons-div">
+            <FaNpm />
+            <div className="icon-text">Npm</div>
+          </div>
+          <div className="icons-div">
+            <FaArrowLeft />
+            <div className="icon-text-none">ArrowLeft</div>
+          </div>
+          <div className="icons-div">
+            <div>Comfortable</div>
+            <div className="icon-text-none">Comfortable</div>
+          </div>
+          <div className="icons-div">
+            <div>New Too</div>
+            <div className="icon-text-none">New Too</div>
+          </div>
+          <div className="icons-div">
+            <FaArrowRight />
+            <div className="icon-text-none">ArrowRight</div>
+          </div>
+          <div className="icons-div">
+            <SiPostgresql />
+            <div className="icon-text">Postgresql</div>
+          </div>
+          <div className="icons-div">
+            <SiNetlify />
+            <div className="icon-text">Netflify</div>
+          </div>
+          <div className="icons-div">
+            <SiHeroku />
+            <div className="icon-text">Heroku</div>
+          </div>
+          <div className="icons-div">
+            <FaDocker />
+            <div className="icon-text">Docker</div>
+          </div>
+          <div className="icons-div">
+            <SiJquery />
+            <div className="icon-text">Jquery</div>
+          </div>
         </div>
       </div>
     </div>

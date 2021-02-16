@@ -57,13 +57,21 @@ html {
   width: 0;
   height: 0;
   border: 200px solid transparent;
-  border-bottom-color: black;
+  // border-bottom-color: black;
   position: relative;
   top: -200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+}
+
+.s-white {
+  border-bottom-color: #faf9f7;
+}
+
+.s-black {
+  border-bottom-color: black;
 }
 
 .shape-bottom {
@@ -78,6 +86,14 @@ html {
   align-items: center;
 }
 
+.s-b-black {
+  border-top-color: black;
+}
+
+.s-b-white {
+  border-top-color: #faf9f7
+}
+
 .shape-container {
   display: flex;
   flex-direction: row;
@@ -85,37 +101,50 @@ html {
 }
 
 .shape-text {
-  color: white;
+  // color: white;
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
   height: 200px;
   width: 200px;
   margin-top: 80px;
-  font-size: 43px;
+  font-size: 42px;
   font-weight: bold;
-  margin-left: 40px;
+  margin-left: 90px;
+  font-family: "Lato", "helvetica neue", helvetica, sans-serif;
 }
 
-.shape-text-bottom {
+.s-t-black {
+  color: black;
+}
+
+.s-t-white {
   color: white;
+}
+
+
+.shape-text-bottom {
+  // color: white;
   height: 200px;
   width: 300px;
-  font-size: 43px;
+  font-size: 42px;
   font-weight: bold;
-  margin-left: 50px;
+  margin-left: 35px;
+  font-family: "Lato", "helvetica neue", helvetica, sans-serif;
 }
 
 .shape-text-right {
-  font-size: 43px;
+  font-size: 42px;
   font-weight: bold;
-  color: white;
+  font-family: "Lato", "helvetica neue", helvetica, sans-serif;
+  // color: white;
 }
 
 .shape-text-right-b {
-  font-size: 43px;
+  font-size: 42px;
   font-weight: bold;
-  color: white;
+  font-family: "Lato", "helvetica neue", helvetica, sans-serif;
+  // color: white;
 }
 
 .text-container {
@@ -236,7 +265,7 @@ html {
 }
 
 .p-info-container {
-  margin: 0px 140px;
+  margin: 0px 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -248,7 +277,7 @@ html {
 }
 
 .p-info-white {
-  margin: 0px 140px;
+  margin: 0px 80px;
   h1 {
     color: white;
   }
@@ -265,6 +294,20 @@ html {
   width: 450px;
   height: 270px;
   border: 1px solid black;
+}
+
+.project-links-container {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.project-links {
+  text-decoration: none;
+  &:hover {
+    color: blue;
+  }
 }
 
 // * Bio Skills
@@ -337,6 +380,64 @@ html {
   color: black;
 }
 
+.icon-names {
+  display: flex;
+}
+
+.icon-names-left {
+  display: flex;
+}
+
+.icon-names-right {
+  display: flex;
+  margin-left: 50px;
+}
+
+.icon-text {
+  font-family: "Lato", "helvetica neue", helvetica, sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: #faf9f7;
+  transition: all 250ms ease-in-out;
+  font-size: 13px;
+  height: 50px;
+  width: 40px;
+  margin-top: -30px;
+  &:hover {
+    color: black;
+  }
+}
+
+.icon-text-none {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: #faf9f7;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Lato", "helvetica neue", helvetica, sans-serif;
+}
+
+.icons-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 250ms ease-in-out;
+  &:hover {
+  color: black;
+}
+}
+
+.icons {
+  transition: all 250ms ease-in-out;
+  &:hover {
+    color: #222222;
+  }
+}
+
 // * CONTACT
 
 .contact-container {
@@ -367,8 +468,9 @@ html {
 
 .contact-icon {
   margin: 0px 30px;
-  font-size: 50px;
+  font-size: 35px;
   color: black;
+  cursor: pointer;
 }
 
 .back-to-top  {
@@ -379,7 +481,7 @@ html {
 }
 
 .contact-text {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 

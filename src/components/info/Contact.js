@@ -19,10 +19,10 @@ function Contact() {
       <div className="contact-main">
         <div className="contact-icons">
           <IoMdMail onClick={() => Linking.openURL('mailto:maxmorgangiles@gmail.com') }className="contact-icon"/>
-          <a href="https://www.github.com/maccymg">
+          <a href="https://www.github.com/maccymg" rel="noreferrer" target="_blank">
             <FaGithub className="contact-icon"/>
           </a>
-          <a href="https://www.linkedin.com/in/max-mg">
+          <a href="https://www.linkedin.com/in/max-mg" rel="noreferrer" target="_blank">
             <IoLogoLinkedin className="contact-icon"/>
           </a>
         </div>
