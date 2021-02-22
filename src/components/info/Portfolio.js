@@ -16,15 +16,11 @@ import quote from '../../images/quote.png'
 function Portfolio() {
 
 
-
-
-
-
   return (
     <div className="portfolio-container">
       <div className="portfolio-main">
         <div className="section-title-container">
-          <div className="section-title">PORTFOLIO</div>
+          <div className="section-title s-t-white">PORTFOLIO</div>
         </div>
         <div className="portfolio-section-one">
           <div className="p-small"></div>
@@ -134,7 +130,7 @@ function Portfolio() {
           <div className="p-small"></div>
         </div>
         <div className="section-title-container-contact">
-          <div className="section-title">CONTACT</div>
+          <div className="section-title s-t-white">CONTACT</div>
         </div>
       </div>
     </div>

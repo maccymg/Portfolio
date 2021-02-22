@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "eslint-plugin-react": "^7.18.3",
+    "framer-motion": "^3.3.0",
     "http-proxy-middleware": "^1.0.5",
     "node-sass": "^4.13.1",
     "react": "^17.0.1",

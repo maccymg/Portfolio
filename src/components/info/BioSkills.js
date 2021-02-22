@@ -71,7 +71,7 @@ function BioSkills() {
       <div className="bio-main">
         <div className="bio-container">
           <div className="bio-space"></div>
-          <div className="bio-text">While I am very much at the starting point in my career, my drive and curiosity to learn is still apparent. I have experienced a variety of roles in different fields that have taught me the value of hard work while gaining a BA in Classical Civilisation. My passion for problem solving, my desire for a new challenge, and my interest in software engineering particularly, has led me to fast track my learning at General Assembly. I am now looking for a role as a junior developer to further these skills in a professional environment and to progress my career in tech.</div>
+          <div className="bio-text">Coming from a background in Classics my introduction into web development has been a new lease of life. I have always had an interest in complex games and my passion for problem solving and my desire for a new challenge has led me to fast track my learning at General Assembly. Through this process, I completed a variety of projects in an array of coding languages exploring further into problem solving and highlighting the importance of basic coding principals. I am extremely excited by the growth and innovation in the industry and this dive into software engineering has only increased my desire to learn. I am now looking for a role as a junior developer to further these skills in a professional environment.</div>
           <div className="bio-space"></div>
         </div>
       </div>

@@ -1,10 +1,15 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 function Nav() {
 
+  const [bIsActive, setBIsActive] = React.useState(false)
+  const [pIsActive, setPIsActive] = React.useState(false)
+  const [cIsActive, setCIsActive] = React.useState(false)
+
   const scrollToBio = () => {
     window.scrollTo({
-      top: 700,
+      top: 650,
       left: 0,
       behavior: 'smooth'
     })
@@ -29,9 +34,36 @@ function Nav() {
   return (
     <div className="nav-bar-container">
       <div className="nav-bar-main">
-        <a onClick={scrollToBio} className="nav-bar-item">BIO/ SKILLS</a>
-        <a onClick={scrollToPortfolio} className="nav-bar-item">PORTFOLIO</a>
-        <a onClick={scrollToContact} className="last-nav-bar-item">CONTACT</a>
+        <motion.div
+          onClick={scrollToBio} 
+          className="nav-bar-item"
+          onMouseEnter={() => setBIsActive(true)}
+          onMouseLeave={() => setBIsActive(false)}
+          animate={{
+            scale: bIsActive ? [1, 1.5, 1.5, 1, 1] : [1, 1]
+          }}>
+          BIO/ SKILLS
+        </motion.div>
+        <motion.div
+          onClick={scrollToPortfolio}
+          className="nav-bar-item"
+          onMouseEnter={() => setPIsActive(true)}
+          onMouseLeave={() => setPIsActive(false)}
+          animate={{
+            scale: pIsActive ? [1, 1.5, 1.5, 1, 1] : [1, 1]
+          }}>
+          PORTFOLIO
+        </motion.div>
+        <motion.div
+          onClick={scrollToContact}
+          className="last-nav-bar-item"
+          onMouseEnter={() => setCIsActive(true)}
+          onMouseLeave={() => setCIsActive(false)}
+          animate={{
+            scale: cIsActive ? [1, 1.5, 1.5, 1, 1] : [1, 1]
+          }}>
+          CONTACT
+        </motion.div>
       </div>
     </div>
   )

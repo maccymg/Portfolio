@@ -3,7 +3,8 @@
 }
 
 html {
-  background-color: #faf9f7;
+  // background-color: #faf9f7;
+  background-color: rgb(11, 36, 182);
 }
 
 .main {
@@ -11,6 +12,7 @@ html {
   flex-direction: column;
   align-items: center;
   padding: 50px 0px 20px 0px;
+  background-color: rgb(11, 36, 182);
 }
 
 //* Nav
@@ -39,8 +41,10 @@ html {
   border-right: 1px solid #d9d9d9;
   font-size: 16px;
   font-family: "Lato", "helvetica neue", helvetica, sans-serif;
-  color: #222222;
   font-weight: bold;
+  &:hover {
+    color: white;
+  }
 }
 
 .last-nav-bar-item {
@@ -49,6 +53,9 @@ html {
   font-size: 16px;
   font-family: "Lato", "helvetica neue", helvetica, sans-serif;
   font-weight: bold;
+  &:hover {
+    color: white;
+  }
 }
 
 //* Home
@@ -97,7 +104,7 @@ html {
 .shape-container {
   display: flex;
   flex-direction: row;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 .shape-text {
@@ -304,9 +311,10 @@ html {
 }
 
 .project-links {
+  font-weight: bold;
   text-decoration: none;
   &:hover {
-    color: blue;
+    color: rgb(11, 36, 182);
   }
 }
 
@@ -314,8 +322,10 @@ html {
 
 .section-title-container {
   display: flex;
-  margin: 100px 20px;
+  margin: 50px 20px;
+  color: black;
 }
+
 
 .section-title-container-contact {
   display: flex;
@@ -331,7 +341,8 @@ html {
 .bio-skills-container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 40px;
+  // margin-bottom: 40px;
+  background-color: #faf9f7;
 }
 
 .bio-main {
@@ -364,6 +375,7 @@ html {
 
 .icon-container {
   height: 80px;
+  margin-bottom: 50px;
 }
 
 .icons {
@@ -449,8 +461,9 @@ html {
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin: 30px 0px;
+  margin: 100px 0px 30px 0px;
   padding: 30px 0px;
+  color: white;
 }
 
 .contact-title {
@@ -469,7 +482,7 @@ html {
 .contact-icon {
   margin: 0px 30px;
   font-size: 35px;
-  color: black;
+  color: white;
   cursor: pointer;
 }
 
@@ -482,6 +495,30 @@ html {
 
 .contact-text {
   font-size: 15px;
+}
+
+@media only screen and (max-width: 1124px) {
+
+  .p-info-container {
+    p {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 798px) {
+
+  .bio-text {
+    font-size: 14px;
+    flex: 3;
+  }
+
+  // .p-info-container {
+  //   p {
+  //     display: none;
+  //   }
+  // }
+
 }
 
 
