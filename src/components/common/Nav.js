@@ -17,7 +17,7 @@ function Nav() {
 
   const scrollToPortfolio = () => {
     window.scrollTo({
-      top: 2070,
+      top: 2080,
       left: 0,
       behavior: 'smooth'
     })
