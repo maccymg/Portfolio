@@ -41,7 +41,7 @@ function Portfolio() {
                   <h4>Full stack – Python Django rest framework using a Postgres database with React frontend, one week, solo project</h4>
                   <p>In this project, I decided to build my mum a website for her art. This was a hugely beneficial experience, as I practised working under someone elses scope of what they expected, as well as communicating with them throughout the process and ultimately delivering something that was of a high standard. Using Python to code the backend was a great learning experience as being able to go from JavaScript to a new language highlighted the importance of basic coding principles and how these apply to all languages. Similarly, being able to really spend time polishing the look of the frontend has given me confidence in my design and I am looking forward to the next challenge. Delivering a product that my mum could use and update regularly through the admin site was a great way to finish this experience and it was so rewarding revealing it to her as she loved it.</p>
                   <div className="project-links-container">
-                    <a className="project-links s-t-white" href="https://www.bit.ly/2LFwSA8" rel="noreferrer" target="_blank">README</a>
+                    <a className="project-links s-t-white" href="https://bit.ly/2NqhFUt" rel="noreferrer" target="_blank">README</a>
                     <a className="project-links s-t-white" href="https://www.bit.ly/2LFwSA8" rel="noreferrer" target="_blank">URL</a>
                   </div>
                 </div>
@@ -58,7 +58,7 @@ function Portfolio() {
                   <h4>Full stack MERN app, one week, solo project </h4>
                   <p>Here, for the first time, we were tasked with building a full-stack application. Using Mongo, Express, React and Node, I built an app where you could build Premier League teams from a database of players. This was a good experience of back-end coding with the request response cycle, seeding and managing databases, error handling as well as dealing with users, comments, forms and building this all in the front end. Challenges included capturing select forms, seeding teams with owners and embedded relationships.</p>
                   <div className="project-links-container">
-                    <a className="project-links s-t-black" href="https://www.bit.ly/3rBQF2x" rel="noreferrer" target="_blank">README</a>
+                    <a className="project-links s-t-black" href="https://bit.ly/2ZObwDO" rel="noreferrer" target="_blank">README</a>
                     <a className="project-links s-t-black" href="https://www.bit.ly/3pqre2H" rel="noreferrer" target="_blank">URL</a>
                   </div>
                 </div>
@@ -94,7 +94,7 @@ function Portfolio() {
                   <h4>Serving an API with react frontend, two days, pair coding</h4>
                   <p>In this project, I experienced the importance of clear communication and teamwork when under severe time pressure. Having just two days, we were tasked with accessing an API and displaying it with a React frontend. Being near the beginning of my development in react on top of the other factors this was by far the most challenging project for me personally. Using a motivation quote API, we built a quiz-based application that also served to give the user motivation. Using react-router-dom for a many-page application, as well as using JSX for the first time, on top of handling the logic surrounding the game, all were good learning experiences. Similarly, using a CSS library for the first time (Bulma) was useful.</p>
                   <div className="project-links-container">
-                    <a className="project-links s-t-white" href="https://www.bit.ly/2N8qvFJ" rel="noreferrer" target="_blank">README</a>
+                    <a className="project-links s-t-white" href="https://bit.ly/2NCqnPt" rel="noreferrer" target="_blank">README</a>
                     <a className="project-links s-t-white" href="https://www.bit.ly/2Z062pk" rel="noreferrer" target="_blank">URL</a>
                   </div>
                 </div>
@@ -111,7 +111,7 @@ function Portfolio() {
                   <h4>Grid-based game, one week, solo project</h4>
                   <p>This project was a huge insight into coding web applications. Using the 3 pillars of the web, HTML, CSS and JavaScript, I was instructed to build a grid-based game. As we were using vanilla JavaScript, it was a great learning curve into manipulating arrays, selecting HTML elements and being able to change styles. Using selectors, event listeners, functions and intervals, all quite new to me at the time, really benefited my development, and I had such a good time in releasing it.</p>
                   <div className="project-links-container">
-                    <a className="project-links s-t-black" href="https://www.bit.ly/2MRvf2P" rel="noreferrer" target="_blank">README</a>
+                    <a className="project-links s-t-black" href="https://bit.ly/3dGfg2w" rel="noreferrer" target="_blank">README</a>
                     <a className="project-links s-t-black" href="https://www.bit.ly/3a1x3im" rel="noreferrer" target="_blank">URL</a>
                   </div>
                 </div>

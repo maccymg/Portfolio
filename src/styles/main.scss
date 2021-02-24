@@ -42,9 +42,7 @@ html {
   font-size: 16px;
   font-family: "Lato", "helvetica neue", helvetica, sans-serif;
   font-weight: bold;
-  &:hover {
-    color: white;
-  }
+  color: white;
 }
 
 .last-nav-bar-item {
@@ -53,9 +51,7 @@ html {
   font-size: 16px;
   font-family: "Lato", "helvetica neue", helvetica, sans-serif;
   font-weight: bold;
-  &:hover {
-    color: white;
-  }
+  color: white;
 }
 
 //* Home
@@ -104,7 +100,7 @@ html {
 .shape-container {
   display: flex;
   flex-direction: row;
-  margin-bottom: 120px;
+  margin-bottom: 250px;
 }
 
 .shape-text {
@@ -177,7 +173,7 @@ html {
   display: flex;
   flex-direction: row;
   flex-grow: 1;
-  height: 650px;
+  height: 750px;
   // margin: 0px -20px -20px;
   background-color: #faf9f7;
   transition: all 250ms ease-in-out;
@@ -195,7 +191,7 @@ html {
   display: flex;
   flex-direction: row;
   flex-grow: 1;
-  height: 650px;
+  height: 750px;
   // margin-bottom: 20px;
   background-color: #222222;
   transition: all 250ms ease-in-out;
@@ -279,7 +275,7 @@ html {
   line-height: 1.5;
   font-family: "Lato", "helvetica neue", helvetica, sans-serif; 
   p {
-    font-size: 13px;
+    font-size: 16px;
   }
 }
 
@@ -292,7 +288,6 @@ html {
     color: white;
   }
   p {
-    font-size: 13px;
     color: white;
   }
 }
@@ -355,7 +350,7 @@ html {
   flex-grow: 1;
   flex-direction: row;
   align-items: center;
-  margin: 20px 0px;
+  margin: 60px 0px;
 }
 
 .bio-space {
@@ -368,19 +363,32 @@ html {
   flex: 2;
   font-family: "Lato", "helvetica neue", helvetica, sans-serif;
   padding: 30px;
-  background-color: rgb(0, 255, 255);
+  border: 2px solid rgb(11, 36, 182);
   border-radius: 10px;
   line-height: 1.5;
 }
 
+.skills-container {
+  margin-left: 100px;
+}
+
+.skills-heading {
+  margin-bottom: 50px;
+}
+.skills-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(11, 36, 182);;
+}
+
 .icon-container {
   height: 80px;
-  margin-bottom: 50px;
+  margin: 40px 0px;
 }
 
 .icons {
   display: flex;
-  justify-content: space-around;
+  // justify-content: space-evenly;
   align-items: center;
   margin: 30px 0px;
   font-size: 25px;
@@ -437,6 +445,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0px 30px;
   transition: all 250ms ease-in-out;
   &:hover {
   color: black;
