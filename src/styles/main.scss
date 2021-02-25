@@ -100,7 +100,7 @@ html {
 .shape-container {
   display: flex;
   flex-direction: row;
-  margin-bottom: 250px;
+  margin-bottom: 180px;
 }
 
 .shape-text {
@@ -173,7 +173,7 @@ html {
   display: flex;
   flex-direction: row;
   flex-grow: 1;
-  height: 750px;
+  height: 680px;
   // margin: 0px -20px -20px;
   background-color: #faf9f7;
   transition: all 250ms ease-in-out;
@@ -191,7 +191,7 @@ html {
   display: flex;
   flex-direction: row;
   flex-grow: 1;
-  height: 750px;
+  height: 680px;
   // margin-bottom: 20px;
   background-color: #222222;
   transition: all 250ms ease-in-out;
@@ -292,6 +292,11 @@ html {
   }
 }
 
+.tech-words {
+  color: red;
+  font-weight: bold;
+}
+
 .p-photo {
   width: 450px;
   height: 270px;
@@ -317,19 +322,31 @@ html {
 
 .section-title-container {
   display: flex;
-  margin: 50px 20px;
+  margin: 40px 0px 0px 0px;
   color: black;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.section-title-container-contact {
-  display: flex;
-  margin: 20px 20px;
+.no-margin {
+  margin: 0px;
 }
+
+.margin-bottom {
+  margin: 0px 0px 40px 0px;
+}
+
 
 .section-title {
   font-weight: bold;
   font-family: "Lato", "helvetica neue", helvetica, sans-serif;
+  margin-top: 45px;
+}
+
+.section-title-down {
+  font-weight: bold;
+  font-family: "Lato", "helvetica neue", helvetica, sans-serif;
+  margin-top: -65px;
 }
 
 
@@ -350,7 +367,6 @@ html {
   flex-grow: 1;
   flex-direction: row;
   align-items: center;
-  margin: 60px 0px;
 }
 
 .bio-space {
@@ -368,12 +384,18 @@ html {
   line-height: 1.5;
 }
 
+.b-t-white {
+  border: 2px solid black;
+  color: white;
+  margin-top: 30px;
+}
+
 .skills-container {
   margin-left: 100px;
 }
 
 .skills-heading {
-  margin-bottom: 50px;
+  // margin-bottom: 50px;
 }
 .skills-title {
   font-size: 20px;
@@ -470,8 +492,8 @@ html {
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin: 150px 0px 50px 0px;
-  padding: 30px 0px;
+  margin: 0px 0px 50px 0px;
+  // padding: 30px 0px;
   color: white;
 }
 
@@ -505,6 +527,55 @@ html {
 .contact-text {
   font-size: 15px;
 }
+
+.title-shape {
+  width: 0;
+  height: 0;
+  border: 80px solid transparent;
+  border-bottom-color: black;
+  // position: relative;
+  top: -80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-shape-white {
+  width: 0;
+  height: 0;
+  border: 80px solid transparent;
+  border-bottom-color: white;
+  // position: relative;
+  top: -80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-shape-down {
+  width: 0;
+  height: 0;
+  border: 80px solid transparent;
+  border-top-color: black;
+  // position: relative;
+  bottom: -80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-shape-down-white {
+  width: 0;
+  height: 0;
+  border: 80px solid transparent;
+  border-top-color: white;
+  // position: relative;
+  bottom: -80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 @media only screen and (max-width: 1124px) {
 

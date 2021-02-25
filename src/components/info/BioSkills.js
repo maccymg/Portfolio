@@ -10,7 +10,9 @@ function BioSkills() {
   return (
     <div className="bio-skills-container">
       <div className="section-title-container">
-        <div className="section-title">BIO</div>
+        <div className="title-shape-down">
+          <div className="section-title-down s-t-white">BIO</div>
+        </div>
       </div>
       <div className="bio-main">
         <div className="bio-container">
@@ -19,8 +21,10 @@ function BioSkills() {
           <div className="bio-space"></div>
         </div>
       </div>
-      <div className="section-title-container">
-        <div className="section-title skills-heading">SKILLS</div>
+      <div className="section-title-container margin-bottom">
+        <div className="title-shape">
+          <div className="section-title skills-heading s-t-white">SKILLS</div>
+        </div>
       </div>
       <div className="skills-container">
         <div className="skills-title-container">

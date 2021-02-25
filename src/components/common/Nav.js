@@ -9,7 +9,7 @@ function Nav() {
 
   const scrollToBio = () => {
     window.scrollTo({
-      top: 780,
+      top: 700,
       left: 0,
       behavior: 'smooth'
     })
@@ -17,7 +17,7 @@ function Nav() {
 
   const scrollToPortfolio = () => {
     window.scrollTo({
-      top: 2080,
+      top: 1980,
       left: 0,
       behavior: 'smooth'
     })
@@ -25,7 +25,7 @@ function Nav() {
 
   const scrollToContact = () => {
     window.scrollTo({
-      top: 5200,
+      top: 5000,
       left: 0,
       behavior: 'smooth'
     })

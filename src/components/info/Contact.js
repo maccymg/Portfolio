@@ -22,6 +22,18 @@ function Contact() {
 
   return (
     <div className="contact-container">
+      <div className="bio-main">
+        <div className="bio-container">
+          <div className="bio-space b-s-black"></div>
+          <div className="bio-text b-t-white">I have always enjoyed playing games, and coming from a family of seven, there were always family members to play with. I particularly like games of strategy like backgammon and chess and I play bridge regularly. I enjoy playing racket sports and have recently got into cooking. I am currently open to oppotunities so please get in touch using the bellow.</div>
+          <div className="bio-space"></div>
+        </div>
+      </div>
+      <div className="section-title-container">
+        <div className="title-shape-down-white">
+          <div className="section-title-down">CONTACT</div>
+        </div>
+      </div>
       <div className="contact-main">
         <div className="contact-icons">
           <motion.div
