@@ -131,9 +131,9 @@ function Portfolio() {
           </div>
           <div className="p-small"></div>
         </div>
-        <div className="section-title-container no-margin">
-          <div className="title-shape-white">
-            <div className="section-title skills-heading">ABOUT</div>
+        <div className="section-title-container margin-top-half">
+          <div className="title-shape-down-white">
+            <div className="section-title-down">ABOUT</div>
           </div>
         </div>
       </div>

@@ -21,9 +21,9 @@ function BioSkills() {
           <div className="bio-space"></div>
         </div>
       </div>
-      <div className="section-title-container margin-bottom">
-        <div className="title-shape">
-          <div className="section-title skills-heading s-t-white">SKILLS</div>
+      <div className="section-title-container margin-top">
+        <div className="title-shape-down">
+          <div className="section-title-down s-t-white">SKILLS</div>
         </div>
       </div>
       <div className="skills-container">
@@ -50,7 +50,7 @@ function BioSkills() {
             </div>
             <div className="icons-div">
               <SiMongodb />
-              <div className="icon-text">MongoDb</div>
+              <div className="icon-text">MongoDB</div>
             </div>
             <div className="icons-div">
               <FaCss3 />
@@ -81,7 +81,7 @@ function BioSkills() {
           <div className="icons">
             <div className="icons-div">
               <FaNodeJs />
-              <div className="icon-text">NodeJs</div>
+              <div className="icon-text">Node.js</div>
             </div>
             <div className="icons-div">
               <FaPython />
@@ -89,7 +89,7 @@ function BioSkills() {
             </div>
             <div className="icons-div">
               <FaGithub />
-              <div className="icon-text">Github</div>
+              <div className="icon-text">GitHub</div>
             </div>
             <div className="icons-div">
               <FaYarn />
@@ -108,7 +108,7 @@ function BioSkills() {
           <div className="icons">
             <div className="icons-div">
               <SiPostgresql />
-              <div className="icon-text">Postgresql</div>
+              <div className="icon-text">PostgreSQL</div>
             </div>
             <div className="icons-div">
               <SiNetlify />
@@ -124,7 +124,7 @@ function BioSkills() {
             </div>
             <div className="icons-div">
               <SiJquery />
-              <div className="icon-text">Jquery</div>
+              <div className="icon-text">jQuery</div>
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ function Nav() {
 
   const scrollToBio = () => {
     window.scrollTo({
-      top: 700,
+      top: 720,
       left: 0,
       behavior: 'smooth'
     })
@@ -17,7 +17,7 @@ function Nav() {
 
   const scrollToPortfolio = () => {
     window.scrollTo({
-      top: 1980,
+      top: 2050,
       left: 0,
       behavior: 'smooth'
     })
@@ -25,7 +25,7 @@ function Nav() {
 
   const scrollToContact = () => {
     window.scrollTo({
-      top: 5000,
+      top: 4960,
       left: 0,
       behavior: 'smooth'
     })
@@ -62,7 +62,7 @@ function Nav() {
           animate={{
             scale: cIsActive ? [1, 1.5, 1.5, 1, 1] : [1, 1]
           }}>
-          CONTACT
+          ABOUT
         </motion.div>
       </div>
     </div>

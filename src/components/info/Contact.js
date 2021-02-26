@@ -30,7 +30,7 @@ function Contact() {
         </div>
       </div>
       <div className="section-title-container">
-        <div className="title-shape-down-white">
+        <div className="title-shape-down-white margin-top-half">
           <div className="section-title-down">CONTACT</div>
         </div>
       </div>
