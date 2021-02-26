@@ -202,7 +202,7 @@ html {
 
 .p-small {
   display: flex;
-  flex: 0.5;
+  flex: 0.25;
 }
 
 
@@ -228,41 +228,20 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 1;
 }
-
-// #root > div > div.portfolio-main > div:nth-child(1) > div.p-large > div > div.p-carousel-container > div > div {
-//   width: 450px;
-//   height: 270px;
-// }
-
-// #root > div > div.portfolio-main > div:nth-child(3) > div.p-large > div > div.p-carousel-container > div > div {
-//   width: 450px;
-//   height: 270px;
-// }
-
-// #root > div > div.portfolio-main > div:nth-child(2) > div.p-large > div > div.p-carousel-container > div > div {
-//   width: 450px;
-//   height: 270px;
-// }
-
-// #root > div > div.portfolio-main > div:nth-child(4) > div.p-large > div > div.p-carousel-container > div > div {
-//   width: 450px;
-//   height: 270px;
-// }
-
 
 
 .p-carousel {
   display: flex;
   flex: 1.5;
   width: 450px;
-  height: 270px;
+  height: 370px;
 }
 
 .p-info {
   display: flex;
   flex: 1;
-  // background-color: chartreuse;
   flex-direction: column;
   justify-content: center;
 }
@@ -299,7 +278,7 @@ html {
 
 .p-photo {
   width: 450px;
-  height: 270px;
+  height: 370px;
   border: 1px solid black;
 }
 
@@ -317,6 +296,11 @@ html {
     color: rgb(11, 36, 182);
   }
 }
+
+.thumbs {
+  display: none;
+}
+
 
 // * Bio Skills
 
@@ -557,27 +541,37 @@ html {
 }
 
 
-@media only screen and (max-width: 1124px) {
+@media only screen and (max-width: 1250px) {
+
+  .p-info-container {
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+
+  .p-info-container {
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 980px) {
 
   .p-info-container {
     p {
       display: none;
     }
   }
-}
-
-@media only screen and (max-width: 798px) {
 
   .bio-text {
     font-size: 14px;
     flex: 3;
   }
-
-  // .p-info-container {
-  //   p {
-  //     display: none;
-  //   }
-  // }
 
 }
 
