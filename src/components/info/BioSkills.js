@@ -17,7 +17,17 @@ function BioSkills() {
       <div className="bio-main">
         <div className="bio-container">
           <div className="bio-space"></div>
-          <div className="bio-text">Coming from a background in Classics my introduction into web development has been a new lease of life. I have always had an interest in complex games and my passion for problem solving and my desire for a new challenge has led me to fast track my learning at General Assembly. Through this process, I completed a variety of projects in an array of coding languages exploring further into problem solving and highlighting the importance of basic coding principals. I am extremely excited by the growth and innovation in the industry and this dive into software engineering has only increased my desire to learn. I am now looking for a role as a junior developer to further these skills in a professional environment.</div>
+          <div className="bio-text">
+            <p>
+            Coming from a background in Classics my introduction into web development has been a new lease of life.
+            </p>
+            <p>
+            I have always had an interest in complex games and my passion for problem solving and my desire for a new challenge has led me to fast track my learning at General Assembly. Through this process, I completed a variety of projects in an array of coding languages exploring further into problem solving and highlighting the importance of basic coding principals.
+            </p>
+            <p>
+            I am extremely excited by the growth and innovation in the industry and this dive into software engineering has only increased my desire to learn. I am now looking for a role as a junior developer to further these skills in a professional environment.
+            </p>
+          </div>
           <div className="bio-space"></div>
         </div>
       </div>
@@ -88,6 +98,10 @@ function BioSkills() {
               <div className="icon-text">Python</div>
             </div>
             <div className="icons-div">
+              <SiPostgresql />
+              <div className="icon-text">PostgreSQL</div>
+            </div>
+            <div className="icons-div">
               <FaGithub />
               <div className="icon-text">GitHub</div>
             </div>
@@ -106,10 +120,6 @@ function BioSkills() {
         </div>
         <div className="icon-container">
           <div className="icons">
-            <div className="icons-div">
-              <SiPostgresql />
-              <div className="icon-text">PostgreSQL</div>
-            </div>
             <div className="icons-div">
               <SiNetlify />
               <div className="icon-text">Netflify</div>

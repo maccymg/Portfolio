@@ -47,11 +47,11 @@ function Portfolio() {
               <div className="p-info">
                 <div className="p-info-container p-info-white">
                   <h1>Project 4 – Art Website</h1>
-                  <h4>Full stack – Python Django rest framework using a Postgres database with React frontend, one week, solo project</h4>
-                  <p>In this project, I decided to build my mum a website for her art. This was a hugely beneficial experience, as I practised working under someone elses scope of what they expected, as well as communicating with them throughout the process and ultimately delivering something that was of a high standard. Using <span className="tech-words">Python</span> to code the backend was a great learning experience as was table based databasing using <span className="tech-words">Postgres</span>. Simillaly being able to go from JavaScript to a new language highlighted the importance of basic coding principles and how these apply to all languages. Similarly, being able to really spend time polishing the look of the frontend has given me confidence in my design and I am looking forward to the next challenge. Delivering a product that my mum could use and update regularly through the admin site was a great way to finish this experience and it was so rewarding revealing it to her as she loved it.</p>
+                  <h4>Full stack – Python Django rest framework using a PostgreSQL database with React frontend, one week, solo project</h4>
+                  <p>In this project, I decided to build my mum a website for her art. This was a hugely beneficial experience, as I practised working under someone elses scope of what they expected, as well as communicating with them throughout the process and ultimately delivering something that was of a high standard. Using <span className="tech-words">Python</span> to code the backend was a great learning experience as was table based databasing using <span className="tech-words">PostgreSQL</span>. Simillaly being able to go from JavaScript to a new language highlighted the importance of basic coding principles and how these apply to all languages. Similarly, being able to really spend time polishing the look of the frontend has given me confidence in my design and I am looking forward to the next challenge. Delivering a product that my mum could use and update regularly through the admin site was a great way to finish this experience and it was so rewarding revealing it to her as she loved it.</p>
                   <div className="project-links-container">
                     <a className="project-links s-t-white" href="https://bit.ly/2NqhFUt" rel="noreferrer" target="_blank">README</a>
-                    <a className="project-links s-t-white" href="https://www.bit.ly/2LFwSA8" rel="noreferrer" target="_blank">URL LINK</a>
+                    <a className="project-links s-t-white" href="https://bit.ly/2NqhFUt" rel="noreferrer" target="_blank">URL LINK</a>
                   </div>
                 </div>
               </div>
@@ -140,7 +140,7 @@ function Portfolio() {
         </div>
         <div className="section-title-container margin-top-half">
           <div className="title-shape-down-white">
-            <div className="section-title-down">ABOUT</div>
+            <div className="section-title-down">INTERESTS</div>
           </div>
         </div>
       </div>
